@@ -35,7 +35,8 @@ func main() {
 		})
 	})
 
-	// Register auth routes
+	// routes
 	routes.AuthRoutes(router)
+	routes.UserRoutes(router)
 	router.Run() // listens on 0.0.0.0:8080 by default
 }
