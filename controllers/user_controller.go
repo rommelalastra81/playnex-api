@@ -3,7 +3,7 @@ package controllers
 import (
 	"net/http"
 
-	config "playnex-api/configs"
+	"playnex-api/config"
 	"playnex-api/dtos"
 	"playnex-api/models"
 

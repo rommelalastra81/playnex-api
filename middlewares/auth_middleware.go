@@ -4,7 +4,7 @@ import (
 	"net/http"
 	"strings"
 
-	config "playnex-api/configs"
+	"playnex-api/config"
 
 	"github.com/gin-gonic/gin"
 )

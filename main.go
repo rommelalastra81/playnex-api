@@ -1,7 +1,7 @@
 package main
 
 import (
-	config "playnex-api/configs"
+	"playnex-api/config"
 	"playnex-api/routes"
 
 	"github.com/gin-contrib/cors"
